@@ -1,0 +1,4 @@
+
+*.suo
+/Cocos2DXnaGame/bin/
+/Cocos2DXnaGame/obj/
