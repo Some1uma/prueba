@@ -2,6 +2,7 @@ using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using Cocos2D;
+using PlayerNamespace;
 
 namespace Cocos2DXnaGame
 {
@@ -11,6 +12,9 @@ namespace Cocos2DXnaGame
     public class Game1 : Game
     {
         private readonly GraphicsDeviceManager graphics;
+
+        // Represents the player
+        Player player;
 
         public Game1()
         {
@@ -29,6 +33,13 @@ namespace Cocos2DXnaGame
 
             // Frame rate is 30 fps by default for Windows Phone.
             TargetElapsedTime = TimeSpan.FromTicks(333333 / 2);
+
+
+            //##### ESTO ES MIO ####
+            // Frame rate is 30 fps by default for Windows Phone.
+            // TargetElapsedTime = TimeSpan.FromTicks(333333);
+            // IsFixedTimeStep = false;
+            //#########
 
             // Extend battery life under lock.
             //InactiveSleepTime = TimeSpan.FromSeconds(1);
