@@ -12,6 +12,8 @@ namespace Cocos2DXnaGame
     {
         private readonly GraphicsDeviceManager graphics;
 
+        bool p; //esto es una prueba para ver si dani es manco o no....XD
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
