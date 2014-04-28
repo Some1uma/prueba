@@ -13,8 +13,12 @@ namespace Cocos2DXnaGame
     {
         private readonly GraphicsDeviceManager graphics;
 
+<<<<<<< HEAD
         // Represents the player
         Player player;
+=======
+        bool p; //esto es una prueba para ver si dani es manco o no....XD
+>>>>>>> 804c9c1ac7b6cf7af6bf390127a0688526a30beb
 
         public Game1()
         {
